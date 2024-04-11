@@ -1,0 +1,9 @@
+## Interface: 30300
+## Title: Bagnon |cffa335eeItemLevel|r
+## Author: Даня
+## Notes: |cff666666By Даня|r |n|n|cffffffffПлагин для Bagnon, который отображает |cffa335eeItemLevel |cffffffffвещей |n |r|n|n|cff4488ffАддон сделан для:|r|nWotLK Sirus |n|cffffffff|r |n|n|cff4488ffСвязь со мной|r|cffffffff:|r|n|cffffffffvk.com/riiidee
+## RequiredDeps: Bagnon
+## Version: 1.0
+## X-Category: Инвентарь
+
+main.lua
