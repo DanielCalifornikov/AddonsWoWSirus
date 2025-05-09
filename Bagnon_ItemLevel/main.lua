@@ -47,7 +47,7 @@ local function SafeUpdateButton(button)
         button.ilvlText:SetPoint("TOPLEFT", 2, -2)
         button.ilvlText:SetShadowOffset(1, -1)
         button.ilvlText:SetShadowColor(0, 0, 0, 0.8)
-        button.ilvlText:SetFont(STANDARD_TEXT_FONT, ItemLevel.db.itemLevelSize or 14)
+        button.ilvlText:SetFont(STANDARD_TEXT_FONT, ItemLevel.db.itemLevelSize or 14, "OUTLINE")
     end
     -- Создаем текстовое поле для типа привязки, если оно нужно
     if ItemLevel.db.showBindType and not button.bindText then
