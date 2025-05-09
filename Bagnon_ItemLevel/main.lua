@@ -55,7 +55,7 @@ local function SafeUpdateButton(button)
         button.bindText:SetPoint("BOTTOMRIGHT", -2, 2)
         button.bindText:SetShadowOffset(1, -1)
         button.bindText:SetShadowColor(0, 0, 0, 0.8)
-        button.bindText:SetFont(STANDARD_TEXT_FONT, ItemLevel.db.bindTypeSize or 12)
+        button.bindText:SetFont(STANDARD_TEXT_FONT, ItemLevel.db.bindTypeSize or 12, "OUTLINE")
     end
     -- Сбрасываем текст
     button.ilvlText:SetText("")
